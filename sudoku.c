@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-int main(int argc,const char *argv){
-    printf("Hello World!");
-
+void f(int *p);
+int main(){
+    int a=9;
+    f(&a);
     return 0;
+}
+
+void f(int *p){
+    printf("*p=%d",p[0]);
 }
