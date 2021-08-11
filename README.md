@@ -1,2 +1,2 @@
-# sodoku
-Solve sudoku by violent
+# sjhs
+爬取网站上的收藏，观看信息
